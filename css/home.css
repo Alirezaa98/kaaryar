@@ -10,7 +10,8 @@ body {
     overflow-x: hidden;
 }
 
-/*start-navbar*/
+/*navbar*/
+
 nav {
     background: #084a79;
     color: white;
@@ -79,7 +80,8 @@ nav {
 }
 
 
-/*start-header*/
+/*header*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -98,6 +100,7 @@ header {
 .logo img {
     width: 50%;
 }
+/*menu*/
 
 .menu {
     display: flex;
@@ -135,10 +138,6 @@ header {
     color: rgb(124, 124, 124);
 }
 
-.menu-items li:last-child {
-    align-self: center;
-}
-
 .menu-items li:first-child a {
     border-left: none;
 }
@@ -156,6 +155,7 @@ header {
 }
 
 .menu button {
+    cursor: pointer;
     padding: 0.8rem;
     border: none;
     background: #084a79;
@@ -168,6 +168,7 @@ header {
 .menu i {
     align-self: center;
 }
+/*sub-menu about*/
 
 .submenu {
     width: 10rem;
@@ -196,6 +197,7 @@ header {
     opacity: 1;
 }
 
+/*search*/
 
 .header-input-search {
     position: relative;
@@ -337,7 +339,6 @@ header {
     z-index: 3;
 }
 
-
 .section1 {
     background-image: url(../image/hero2-bw.png);
     background-position: 50% 50%;
@@ -446,7 +447,7 @@ header {
     line-height: 1.5;
 }
 
-.description h1 {
+.description h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 50px;
@@ -494,7 +495,7 @@ header {
     width: 100%;
 }
 
-.section2-item h1 {
+.section2-item h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 25px;
@@ -523,7 +524,7 @@ header {
     margin-right: 4rem;
 }
 
-.section3-item h1 {
+.section3-item h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 25px;
@@ -545,7 +546,7 @@ header {
     line-height: 1.5;
 }
 
-.section4 h1 {
+.section4 h2 {
     font-weight: 400;
     font-family: system-ui;
 }
@@ -566,7 +567,7 @@ header {
     padding: 4rem 6rem;
 }
 
-.section5-descrption h1 {
+.section5-descrption h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 40px;
@@ -607,7 +608,7 @@ header {
     font-size: 60px;
 }
 
-.section5-item h1 {
+.section5-item h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 25px;
@@ -648,7 +649,7 @@ header {
     margin: 0.7rem 0;
 }
 
-.section6-item h1 {
+.section6-item h2 {
     font-size: 40px;
 }
 
@@ -663,7 +664,7 @@ header {
     text-align: center;
 }
 
-.section7 h1 {
+.section7 h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 45px;
@@ -783,7 +784,26 @@ footer a {
     color: #105e96;
 
 }
+#scroll-top-button {
+    display: inline-block;
+    background-color: #f5f4f4;
+    color: #fff;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 24px;
+}
 
+#scroll-top-button:hover {
+    background-color: #0c6aad;
+}
+
+.fa-arrow-up::before {
+    content: "↑";
+}
 @media (min-width: 1025px) {
     .bar, .menu-btn {
         display: none !important;
@@ -810,7 +830,9 @@ footer a {
     .bg, .section1, .section2, .section3, .section4, .section5, .section6, .section7 {
         padding: 3rem 1rem;
     }
-
+    .section-item{
+        margin: 1rem 3rem;
+    }
     footer {
         padding: 0 1rem;
         padding-bottom: 3rem;
