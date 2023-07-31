@@ -6,6 +6,8 @@
     list-style: none;
 }
 
+/*navbar*/
+
 nav {
     background: #084a79;
     color: white;
@@ -73,6 +75,8 @@ nav {
     display: block;
 }
 
+/*header*/
+
 header {
     display: flex;
     justify-content: space-between;
@@ -91,6 +95,8 @@ header {
 .logo img {
     width: 50%;
 }
+
+/*menu*/
 
 .menu {
     display: flex;
@@ -155,6 +161,8 @@ header {
     align-self: center;
 }
 
+/*sub-menu about*/
+
 .submenu {
     width: 10rem;
     opacity: 0;
@@ -181,6 +189,8 @@ header {
 .menu-items li:hover .submenu {
     opacity: 1;
 }
+
+/*search*/
 
 .header-input-search {
     position: relative;
@@ -223,11 +233,13 @@ header {
 
 
 /* checkbox */
+
 .check {
     display: none;
 }
 
 /* menu button - label tag */
+
 .menu-btn {
     position: fixed;
     display: block;
@@ -269,7 +281,6 @@ header {
     transform-origin: left bottom;
 }
 
-
 .menu-btn:hover .bar {
     background: #999;
 }
@@ -297,6 +308,7 @@ header {
 }
 
 /* checked */
+
 .check:checked ~ .drawer-menu {
     -webkit-transition-delay: .3s;
     transition-delay: .3s;
@@ -314,7 +326,6 @@ header {
     -ms-transform: translateX(-300px);
     transform: translateX(-300px);
 }
-
 
 .check:checked ~ .menu-btn .bar.top {
     width: 56px;
@@ -368,6 +379,7 @@ header {
     font-family: 'cormorant garamond';
 }
 
+/*section2*/
 
 .section2 {
     padding: 0 7rem;
@@ -399,6 +411,8 @@ header {
     font-size: 18px;
 }
 
+/*Section separator*/
+
 .fa-scale {
     position: relative;
     margin-top: 4rem;
@@ -418,6 +432,8 @@ header {
     width: 3rem;
 
 }
+
+/*button*/
 
 .round-button {
     background: #084a79;
@@ -449,6 +465,7 @@ header {
     opacity: 1;
 }
 
+/*boxs & descriptions */
 
 .section3 {
     padding: 3rem 6rem;
@@ -510,6 +527,8 @@ header {
     background: #f7f7f7;
 }
 
+/*border left*/
+
 .border-p {
     padding-left: 1.5rem;
     font-size: 24px;
@@ -520,6 +539,8 @@ header {
 .border-p span {
     color: #04365a;
 }
+
+/*list in descriptions*/
 
 .deatels ul {
 
@@ -536,6 +557,7 @@ header {
     color: #04365a;
 }
 
+/*section4*/
 
 .section4 {
     padding: 2rem 7rem;
@@ -561,13 +583,14 @@ header {
     color: black;
 }
 
+/*section5*/
 
-.section6 {
+.section5 {
     padding: 4rem 7rem;
     text-align: center;
 }
 
-.section6 h2 {
+.section5 h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 45px;
@@ -575,12 +598,14 @@ header {
     margin-top: 1.5rem;
 }
 
-.section6 p {
+.section5 p {
     line-height: 1.5;
     margin-top: 1rem;
     font-size: 19px;
     color: #b6b6b6;
 }
+
+/*social media*/
 
 .social {
     display: flex;
@@ -611,6 +636,8 @@ header {
 
     cursor: pointer;
 }
+
+/*slider social media*/
 
 .slide {
     background-color: rgba(0, 0, 0, 0.9);
@@ -646,6 +673,7 @@ header {
     transform: translateY(-120%);
 }
 
+/*footer*/
 
 footer {
     padding: 0 7rem 4rem 7rem;
@@ -688,6 +716,8 @@ footer a {
 
 }
 
+/*Button back to top*/
+
 #scroll-top-button {
     display: inline-block;
     background-color: #f5f4f4;
@@ -709,6 +739,7 @@ footer a {
     content: "↑";
 }
 
+/*Responsive*/
 
 @media (min-width: 1025px) {
     .bar, .menu-btn {

@@ -100,6 +100,7 @@ header {
 .logo img {
     width: 50%;
 }
+
 /*menu*/
 
 .menu {
@@ -239,11 +240,13 @@ header {
 }
 
 /* checkbox */
+
 .check {
     display: none;
 }
 
 /* menu button - label tag */
+
 .menu-btn {
     position: fixed;
     display: block;
@@ -289,7 +292,6 @@ header {
     background: #999;
 }
 
-
 .close-menu {
     position: fixed;
     top: 0;
@@ -309,6 +311,7 @@ header {
 }
 
 /* checked */
+
 .check:checked ~ .menu-btn .bar.top {
     width: 56px;
     -webkit-transform: rotate(45deg);
@@ -367,6 +370,8 @@ header {
     margin-bottom: 8rem;
 }
 
+ /*boxs*/
+
 .section-items {
     display: flex;
 }
@@ -389,6 +394,8 @@ header {
     margin-bottom: 2rem;
     line-height: 1.5;
 }
+
+/*button*/
 
 .round-button {
     background: #084a79;
@@ -435,6 +442,7 @@ header {
     color: white;
 }
 
+/*section2*/
 
 .section2 {
     text-align: center;
@@ -460,6 +468,8 @@ header {
     font-size: 17px;
 }
 
+/*Section separator*/
+
 .fa-scale {
     position: relative;
     margin-top: 4rem;
@@ -471,15 +481,11 @@ header {
 }
 
 .fa-scale span {
-
-
     background: #d3d3d3;
     margin: 8px;
     height: 1px;
     width: 3rem;
-
 }
-
 
 .section2-items {
     display: flex;
@@ -507,6 +513,8 @@ header {
     color: rgb(104, 104, 104);
     font-size: 17px;
 }
+
+/*section3*/
 
 .section3 {
     padding: 0 7rem;
@@ -537,6 +545,7 @@ header {
     font-size: 18px;
 }
 
+/*section4*/
 
 .section4 {
     padding: 2rem 7rem;
@@ -561,6 +570,8 @@ header {
     background: white;
     color: black;
 }
+
+/*section5*/
 
 .section5 {
     text-align: center;
@@ -628,6 +639,7 @@ header {
     color: black;
 }
 
+/*section6*/
 
 .section6 {
     padding: 2rem 7rem;
@@ -658,6 +670,7 @@ header {
     margin-top: -1rem;
 }
 
+/*section7*/
 
 .section7 {
     padding: 4rem 7rem;
@@ -678,6 +691,8 @@ header {
     font-size: 19px;
     color: #b6b6b6;
 }
+
+/*social media*/
 
 .social {
     display: flex;
@@ -708,6 +723,8 @@ header {
 
     cursor: pointer;
 }
+
+/*slider social media*/
 
 .slide {
     background-color: rgba(0, 0, 0, 0.9);
@@ -743,6 +760,7 @@ header {
     transform: translateY(-120%);
 }
 
+/*footer*/
 
 footer {
     padding: 0 7rem 4rem 7rem;
@@ -784,6 +802,9 @@ footer a {
     color: #105e96;
 
 }
+
+/*Button back to top*/
+
 #scroll-top-button {
     display: inline-block;
     background-color: #f5f4f4;
@@ -804,6 +825,9 @@ footer a {
 .fa-arrow-up::before {
     content: "↑";
 }
+
+/*Responsive*/
+
 @media (min-width: 1025px) {
     .bar, .menu-btn {
         display: none !important;
