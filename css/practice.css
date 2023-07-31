@@ -385,7 +385,7 @@ header {
     margin-right: 4rem;
 }
 
-.section2-item h1 {
+.section2-item h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 25px;
@@ -464,7 +464,7 @@ header {
     font-size: 60px;
 }
 
-.blue-section h1, .deatels h1 {
+.blue-section h2, .deatels h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 25px;
@@ -545,7 +545,7 @@ header {
     line-height: 1.5;
 }
 
-.section4 h1 {
+.section4 h2 {
     font-weight: 400;
     font-family: system-ui;
 }
@@ -567,7 +567,7 @@ header {
     text-align: center;
 }
 
-.section6 h1 {
+.section6 h2 {
     font-family: system-ui;
     font-weight: 100;
     font-size: 45px;
